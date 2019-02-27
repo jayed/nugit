@@ -1,0 +1,1 @@
+ruby -r zlib -e "STD­OUT.write Zlib::In­flate.in­flate(STDIN.​read)"
