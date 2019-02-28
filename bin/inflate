@@ -1,1 +1,5 @@
-ruby -r zlib -e "STD­OUT.write Zlib::In­flate.in­flate(STDIN.​read)"
+#!/usr/bin/env ruby
+
+require "zlib"
+
+STDOUT.write Zlib::Inflate.inflate(STDIN.read)
